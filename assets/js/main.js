@@ -31,8 +31,8 @@ function temaClaro() {
 
   const botao = document.querySelectorAll(".botao");
 
-  for (botoes in botao) {
-    botao[botoes].classList.toggle("claro");
+  for (i = 0; i < botao.length; i++) {
+    botao[i].classList.toggle("claro");
   }
 }
 //#endregion
